@@ -1,0 +1,36 @@
+<%- include("./layout/header")  %>
+
+<div class="container mt-5 ">
+
+    <form action="add_user" method="POST">
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" name="name" id="form5Example1" class="form-control" />
+          <label class="form-label" for="form5Example1">Name</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" name="email" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">Email address</label>
+        </div>
+
+        <div class="form-outline mb-4">
+          <input type="number" name="phone" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">Phone</label>
+        </div>
+
+        <div class="form-outline mb-4 ms-2">
+
+            <label class="form-label" for="customFile">Your Image:</label>
+            <input type="file" name="image" class="form-control" id="customFile" />
+            
+        </div>
+        
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+      </form>
+
+
+</div>
